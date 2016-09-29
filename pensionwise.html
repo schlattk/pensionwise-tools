@@ -1,0 +1,104 @@
+<html>
+<head>
+
+	
+	<meta charset="utf-8">
+	<title>Pensionwise tools</title>
+	<meta name="description" content="">
+	
+
+	<meta name="viewport" content="width=device-width">
+
+	<link rel="stylesheet" href="css/reset.css"> 
+	<link rel="stylesheet" href="css/lanes.css">   
+	<link rel="stylesheet" href="css/style.css"> 
+
+</head>
+
+<body>
+
+
+<div id = "calculator">
+<h1>Calculate how much income you could get from you savings and for how long</h1>
+<form>
+<p>how much money do you have in your pot?</p>
+
+<input type="text" id="amount" class="form-control" value="" data-value="view"/>
+                        
+<p>at what age do you want to retire? </p>
+
+
+<input type="text" id="age" class="form-control" value="" data-value="view"/> <br>
+                       
+<input type ="button"  id = "button" value="Press for result">                       
+
+<br>
+
+<input type="text" id="output1" class="form-control" value="" data-value="view"/>
+
+<br>
+<input type="range" name="points" class = "slider" id="output2" value="0" min="0" max="250000">
+     
+
+
+
+<div id = "text" >
+</div>
+</form>
+
+</div>
+
+<div id = "calculator2">
+
+<h1>Calculate the borrowing cost for your phone<h1>
+
+<form>
+<p>What is the monthly cost of the contract including the phone?</p>
+
+<input type="text" id="costinclusive" class="form-control" value="" data-value="view"/>
+                        
+<p>What is the monthly cost of the contract excluding the phone (SIM only)? </p>
+
+<input type="text" id="costexclusive" class="form-control" value="" data-value="view"/> 
+
+<p>What is the price to purchase the phone only</p>
+
+<input type="text" id="price" class="form-control" value="" data-value="view"/> 
+
+<p>What is the length of the contract in months ? </p>
+
+<input type="text" id="length" class="form-control" value="" data-value="view"/> 
+
+<br>
+
+
+<input type ="button"  id = "button2" value="Press for result">                       
+
+<br>
+
+
+</form>
+
+<div id = "result" >
+
+</div>
+
+
+</div>
+
+
+
+<script src ="js/addon.js"></script>
+<script src = "js/pensionwise.js"></script>
+<script src = "js/jquery.js"></script>
+
+
+
+
+</body>
+
+
+
+
+
+</html>
