@@ -62,7 +62,8 @@ calc =   (function (annuit){
 
 					button2.addEventListener("click", function(event){
 					cList = [];
-					cList.push(price.value * -1);
+					if (price.value > 10){cList.push(price.value * -1);}
+					else{cList.push(-10);}
 					for( i = 0; i < length.value; i++){
 					cList.push(phoneCost.value - contractCost.value)	
 					}
